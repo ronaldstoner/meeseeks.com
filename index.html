@@ -8,12 +8,7 @@
 
 <title>I'm Mr. Meeseeks!  Look at me!!</title>
 <link href="meeseeks.css" rel="stylesheet" type="text/css" />
-
-<script type="text/javascript">
-function playMP3(){
-document.getElementById("cando").play();
-}
-</script>
+<script src="jquery-1.8.3.js"></script>
 </head>
 
 <body>
@@ -38,6 +33,19 @@ document.getElementById("cando").play();
 	    s.parentNode.insertBefore(gcse, s);
 	  })();
 	</script>
+
+	<script>
+	if (typeof window.Audio !== 'undefined') {
+	    var audio = new Audio('cando.mp3');
+	    document.getElementById('search').addEventListener('click', function(event) {
+	      if (event.target.className.indexOf('gsc-search-button') > -1) {
+	        audio.currentTime = 0;
+	        audio.play();
+	      }
+	    });
+	}
+	</script>
+
 	<gcse:search></gcse:search>
 	</div>
 
