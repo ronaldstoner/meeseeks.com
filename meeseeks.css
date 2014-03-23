@@ -1,0 +1,86 @@
+html, body { 
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	background:#04bef1; 
+	color:white; 
+} 
+
+#pagebody {
+	border-radius: 10px;
+	height: 450px;
+	width: 600px; 
+	background-color: #000000;
+	position:relative;
+	top:10%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0px;
+	right: 0px;
+	background:white; 
+	color:black;
+}
+
+#search {
+	border-radius: 5px;
+	height: 325px;
+	width: 600px; 
+	background-color: #000000;
+	position:relative;
+	top:0%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0px;
+	right: 0px;
+	background:white; 
+	color:black;
+	background-image: url("meeseek.jpg");
+	background-position: right bottom; 
+	background-repeat: no-repeat; 
+}
+
+#searchbox {
+	position: absolute;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: 200px;
+
+}
+
+#adscontainer {
+	border-radius: 5px;
+	height: 125px;
+	width: 600px; 
+	position:absolute;
+	top: 340px;
+ 	margin: 0px auto;
+	left: 0px;
+	right: 0px;
+	background:white;
+        text-align: center;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	font-size:x-small;
+	text-align:center;
+}
+
+#ad1 {
+	border-radius: 5px;
+	height: 100%;
+	width: 25%;
+	position:relative; 
+	background-color: #000000;
+	background:white; 
+	color:black;
+	float: left;
+}
+
+#ad2 {
+	border-radius: 5px;
+	height: 100%;
+	width: 25%;
+	position:relative; 
+	background-color: #000000;
+	background:white; 
+	color:black;
+	float: right;
+}
